@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: "Agbalumo", sans-serif;
+    font-size: 18;
+    overflow-y: hidden;
+
+}
+html{
+    width: 100vw;
+    height: 100vh;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+main{
+    width: 100%;
+    height: 100%;
+}
+
+.UpPlayer{
+    width: 100%;
+    height: 50%;
+    border: 2px solid red;
+}
+
+.DownPlayer{
+    width: 100%;
+    height: 50%;
+    border: 2px solid red;
+}
+.LineBackground path{
+    stroke-width: 7;
+    color:aqua;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1320px;
+    height: 700px;
+    animation: draw 10s linear infinite forwards;
+}
+
+
+@keyframes draw {
+    
+}
