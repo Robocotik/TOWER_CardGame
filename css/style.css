@@ -8,6 +8,7 @@
     user-select: none;
     font-size: 30px;
     color:white;
+    box-sizing: border-box;
 
 }
 html{
@@ -32,12 +33,14 @@ main{
     width: 100%;
     height: 50%;
     border: 2px solid red;
+    position: relative;
 }
 
 .DownPlayer{
     width: 100%;
     height: 50%;
     border: 2px solid red;
+    position: relative;
 }
 
 .CardBack{
@@ -75,7 +78,22 @@ main{
     animation: draw 20s linear infinite forwards;
 }
 
+.Avatar{
+    width: 100px;
+    height: auto;
+    position: absolute;
+    
+}
 
+
+.AvatarBlock{
+    position: relative;
+    width: 100px;
+    height: 106px;
+    right: 5px;
+    background: url(../pics/frame_2.svg) center center no-repeat;
+    stroke: 7;
+}
 @keyframes draw {
     100%{
         stroke-dashoffset: 0;
